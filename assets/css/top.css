@@ -5,17 +5,12 @@
   background-color: #f6f8f9;
 }
 .section-top__image {
-  height: 100vh;
-  background-image: url("../../../sozai_js_work_CC20W/corporate_javascript/jimmy-conover-SEQ2VI0KI6A-unsplash.jpg");
-  background-position: center;
-  background-size: auto 120%;
-  background-repeat: no-repeat;
+ position: relative;
 }
 .section-top__image-filter {
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
-  height: 100%;
   width: 100%;
 }
 .section-top__image-message {
@@ -30,7 +25,15 @@
   width: 90%;
   font-size: 3.2rem;
   margin: 0 auto 30px;
-}
+  display: block;
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  webkit-transform: translate(-50%, -50%);
+  ms-transform: translate(-50%, -50%);
+ }
 .section-news {
   padding: 25px 24px;
   background-color: #fff;
