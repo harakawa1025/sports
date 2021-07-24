@@ -23,7 +23,7 @@
   padding-bottom: 20px;
   border-bottom: #fff solid 2px;
   width: 90%;
-  font-size: 3.2rem;
+  font-size: 6vw;
   margin: 0 auto 30px;
   display: block;
   position: absolute;
@@ -36,13 +36,14 @@
 .section-top__image-message p {
   padding-top: 20px;
   width: 90%;
-  font-size: 2rem;
+  font-size: 3vw;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   webkit-transform: translate(-50%, -50%);
   ms-transform: translate(-50%, -50%);
+  line-height: 1.5;
 }
 .section-news {
   padding: 25px 24px;
@@ -88,6 +89,12 @@
   }
   .section-top__image {
     height: 100%;
+  }
+  .section-top__image-message h2 {
+    font-size: 3vw;
+  }
+  .section-top__image-message p {
+    font-size: 2vw;
   }
   .section-news {
     flex: 4;
